@@ -1,0 +1,7 @@
+- name: Sync files from FTP server
+  hosts: localhost
+  tasks:
+    - name: Sync file using custom FTP plugin
+      ftp_sync:
+        remote_path: "/ftp/one"
+        local_path: "local_files"

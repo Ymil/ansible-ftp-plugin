@@ -1,0 +1,1 @@
+localhost ansible_connection=local ftp_host=localhost ftp_user=one ftp_password='1234'
